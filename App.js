@@ -14,6 +14,10 @@ class App extends Component {
       password: ''
     }
   }
+  
+  componentDidMount() {
+    this.setState({emailValue:"Robot@asto.com,password:"123456789"})
+  }
 
   handleChange(e) {
     console.log(e)
