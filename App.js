@@ -27,6 +27,13 @@ class App extends Component {
       password: e.target.value
     })
   }
+  
+  ClearData() => {
+    this.setState = ({
+      emailValue: '',
+      password: ''
+    })
+  }
   render() {
     return (
       <>
@@ -65,6 +72,9 @@ class App extends Component {
                 </Form.Group>
                 <Button variant="primary" type="submit" onClick={this.submitForm} >
                   Submit
+  </Button>
+<Button variant="primary" type="clear" onClick={this.ClearData} >
+                  Clear
   </Button>
               </Form>
             </Card.Body>
