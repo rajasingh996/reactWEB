@@ -3,7 +3,7 @@ import { Navbar, Nav, Form, FormControl, Button, InputGroup, Card } from 'react-
 // import { createStackNavigator } from 'react-navigation-stack';
 // import ProfileScreen from './ProfileScreen';
 // import { createAppContainer } from 'react-navigation';
-// Demo Screen
+
 
 
 
